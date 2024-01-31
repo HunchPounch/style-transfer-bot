@@ -122,7 +122,7 @@ async def get_pic2(message: Message, state: FSMContext, bot: Bot):
     data = await state.get_data()
     await state.set_state(Style.processing)
     await message.answer("Нейросеть начинает работать!\nПримерное время ожидания:"
-                         " 4 минуты\nДля отмены операции нажмите на соотвествующую кнопку",
+                         " 5 минут\nДля отмены операции нажмите на соотвествующую кнопку",
                          reply_markup=Reply_keyboards.cancel_kb
     )
     

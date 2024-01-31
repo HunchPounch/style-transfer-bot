@@ -19,7 +19,7 @@ class StyleTransferClass:
     def forward(self, content_img_path, style_img_path, main_path):
         
         device = "cpu"
-        imsize = 244
+        imsize = 220
         unloader = transforms.ToPILImage()
         style_img, content_img, w, h  = image_loader(style_img_path,content_img_path, device, imsize)
         input_img = content_img.clone()
