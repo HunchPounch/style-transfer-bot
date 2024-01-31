@@ -1,0 +1,9 @@
+aiogram==3.3.0
+cachetools==5.3.2
+pillow==10.2.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.1.2+cpu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.16.2+cpu

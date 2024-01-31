@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+    bot:
+        image: hunchpounch/style-transfer:latest
+        restart: always
+        stop_signal: SIGINT
+        env_file:
+            - .env
