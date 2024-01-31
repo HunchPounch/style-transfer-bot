@@ -4,7 +4,7 @@ from typing import Callable, Any, Awaitable, Union
 from aiogram import BaseMiddleware
 from aiogram.types import Message
 
-
+# обработка приходящей медиагруппы
 class photos(BaseMiddleware):
     album_data: dict = {}
 
