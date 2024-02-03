@@ -122,7 +122,7 @@ async def get_pic2(message: Message, state: FSMContext, bot: Bot):
     data = await state.get_data()
     await state.set_state(Style.processing)
     await message.answer("Нейросеть начинает работать!\nПримерное время ожидания:"
-                         " 5 минут\nДля отмены операции нажмите на соотвествующую кнопку",
+                         " 2 минуты\nДля отмены операции нажмите на соотвествующую кнопку",
                          reply_markup=Reply_keyboards.cancel_kb
     )
     
@@ -200,7 +200,7 @@ async def get_pic(message: Message, state: FSMContext, bot: Bot):
     await state.set_state(Cycle.processing)
 
     await message.answer("Нейросеть начинает работать!\nПримерное время ожидания:"
-                         " 15 секунд\nДля отмены операции нажми на соотвествующую кнопку",
+                         " 10 секунд\nДля отмены операции нажми на соотвествующую кнопку",
                          reply_markup=Reply_keyboards.cancel_kb                 
     )
 
@@ -285,7 +285,7 @@ async def get_pic_command(message: Message, state: FSMContext, bot: Bot):
     await state.set_state(Cycle_command.processing)
 
     await message.answer("Нейросеть начинает работать!\nПримерное время ожидания:"
-                         " 1 минута\nДля отмены операции нажми на соотвествующую кнопку",
+                         " 10 секунд\nДля отмены операции нажми на соотвествующую кнопку",
                          reply_markup=Reply_keyboards.cancel_kb
     )
     content_img_file = await bot.get_file(data['pic'])
