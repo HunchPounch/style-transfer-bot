@@ -1,6 +1,4 @@
 [<img src="https://img.shields.io/badge/Telegram-%40StyleTransferPicBot-yellow">](https://t.me/StyleTransferPicBot)
-### Временная инструкция по проверке бота:
- - Алексей уже дал добро, tg @Emil_Miftakhutdinov
 
 # Style-Transfer Bot
    Это Style-Transfer телеграмм бот. Он умеет создавать новые фотографии с помощью нейронных сетей, используя как классический алгоритм Гатиса на базе предобученной VGG19, так и CycleGAN. Бот написан с помощью обновленной библиотеки aiogram 3.x для построения асинхронной архитектуры.
