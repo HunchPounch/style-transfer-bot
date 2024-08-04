@@ -16,9 +16,6 @@
 
 ![style-transfer](screenshots/vangogh.png)
 
-<p align="center">
-  <img src="screenshots/chat.png" alt="style-transfer">
-</p>
 
 ## Установка
 ### Docker + Docker Compose
