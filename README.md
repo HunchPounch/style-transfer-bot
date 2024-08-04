@@ -1,4 +1,4 @@
-[<img src="https://img.shields.io/badge/Telegram-%40StyleTransferPicBot-yellow">](https://t.me/StyleTransferPicBot)
+[<img src="https://img.shields.io/badge/Telegram-%40StyleTransferPicBot-green">](https://t.me/StyleTransferPicBot)
 
 # Style-Transfer Bot
    Style-Transfer телеграмм [бот](https://t.me/StyleTransferPicBot) создавает новые изображения с помощью глубоких нейронных сетей, используя как классический алгоритм Гатиса на базе предобученной VGG19, так и CycleGAN. Бот написан с помощью актуальной библиотеки aiogram 3.x для построения асинхронной архитектуры.                                             
