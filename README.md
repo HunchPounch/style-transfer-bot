@@ -17,9 +17,9 @@
 ![style-transfer](screenshots/vangogh.png)
 
 <p align="center">
-  <img src="screenshots/chat1.png", img src=screenshots/chat2.png" alt="style-transfer">
+  <img src="screenshots/chat.png" alt="style-transfer">
 </p>
-   ![style-transfer](screenshots/chat1.png) ![style-transfer](screenshots/chat2.png)
+
 ## Установка
 ### Docker + Docker Compose
 1. Возьмите файл `docker-compose.yml` из репозитория;
