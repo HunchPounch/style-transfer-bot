@@ -22,7 +22,7 @@
   <img src="screenshots/vangogh.png" width="650" alt="Ray Image">
 </p>
 
-Веса модели CycleGAN были взяты из [репозитория](https://github.com/bear96/cyclegan-vangogh/).
+
 ## Установка
 ### Docker + Docker Compose
 1. Возьмите файл `docker-compose.yml` из репозитория;
