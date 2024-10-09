@@ -19,7 +19,7 @@
   * Здесь принцип работы сложней, используется два генератора и два дискриминатора, работающие над переводами из одного домена в другой, а так же `cycle consistency losses` для сохранения структуры изображений. Благодаря данной реализации модели можно работать с непарными данными. Подробнее в [статье](https://arxiv.org/pdf/1703.10593)
 
 <p align="center">
-  <img src="screenshots/vangoghh.png" width="560" lenght="220" alt="Ray Image">
+  <img src="screenshots/van.png" width="450" lenght="200" alt="Ray Image">
 </p>
 
 
